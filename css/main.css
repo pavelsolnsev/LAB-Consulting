@@ -1,0 +1,1555 @@
+/* ------ Fonts ------ */
+
+@font-face {
+  font-family: 'Museo Sans 700';
+  src: url('../fonts/museosanscyrl-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/museosanscyrl-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/museosanscyrl-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/museosanscyrl-700.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/museosanscyrl-700.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/museosanscyrl-700.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo Sans 300';
+  src: url('../fonts/museosanscyrl-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/museosanscyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/museosanscyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/museosanscyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/museosanscyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo Sans 100';
+  src: url('../fonts/museosanscyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/museosanscyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/museosanscyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/museosanscyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/museosanscyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/museosanscyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */  
+}
+
+@font-face {
+	font-family: 'fontawesome-webfont';
+	src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/fontawesome-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* ------ Specification ------ */
+
+body {
+	font-family: 'Museo Sans 300', sans-serif;
+	padding: 0;
+	color: #3f4b60;
+	margin: 0;
+	font-size: 14px;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+    font-size: 15px;
+    color: #404048;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Museo Sans 700';
+	color: #081d42;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 37.5px;	
+}
+
+h2 {
+	font-size: 29.17px;
+	letter-spacing: 0.02em;	
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h5 {
+	font-size: 21px;
+}
+
+h6 {
+	font-size: 19px;
+	color: #c9cace;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.btn:hover {
+	border-bottom: 4px solid transparent;
+	color: #fff;
+}
+
+.btn:active {
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	border-bottom: 4px solid transparent;
+}
+
+/* ------ navigation for all ------ */
+
+.navigation {
+	border-top: 5px solid #58647a;
+	background: rgba(191,194,200,0.41);
+	padding: 17px 0 14px;
+	border-bottom: 4px solid rgba(88,100,122,0.02);
+}
+
+.menu {
+	margin-top: -10px;
+}
+
+.menu__link {
+	color: #3f4b60;
+	font-family: 'Museo Sans 700';
+	font-size: 17px;
+	border-bottom: 2px solid transparent;
+	padding: 12px 15px;
+}
+
+.menu__link:hover {
+	color: #3f4b60;
+	border-bottom: 2px solid #000;
+}
+
+.button {
+	background: #1cb883;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Museo Sans 700';
+	width: 156px;
+	padding: 7px 0;
+	border-bottom: 4px solid #149d6f;
+	margin-top: -10px;
+	border-radius: 0;
+}
+
+.bar {
+	color: #3f4b60;
+	font-size: 26px;
+	margin-left: 25px;
+	border: none;
+	background: transparent;
+
+}
+
+.btn i {
+	color: #46e6b0;
+	margin-right: 9px;
+	font-size: 18px;
+}
+
+/* ------ Header (about.html) ------ */
+
+.company {
+	padding: 60px 0 64px;
+	background: #fafafb;
+}
+
+.title-company {
+	margin-bottom: 8px;
+}
+
+.services {
+	font-size: 15.62px;
+}
+
+.services__link {
+	color: #49556b;
+	border-bottom: 1px solid #49556b;
+	margin-right: 5px;
+	transition: all 0.5s ease;
+}
+
+.services__link:hover, .services__text:hover {
+	color: #49556b;
+	border-bottom: 1px solid transparent;	
+}
+
+.services__link:active, .services__text:active {
+	color: #7e838d;
+	border-bottom: 1px solid transparent;
+}
+
+.services__text {
+	color: #7e838d;
+	border-bottom: 1px solid transparent;
+	transition: all 0.5s ease;
+}
+
+.menu-two {
+	align-items: center;
+}
+
+.menu-two__link {
+	color: #a1a6af;
+	font-size: 15.83px;
+	font-family: 'Museo Sans 700';
+	padding: 12px 16px;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	display: block;
+}
+
+.menu-two__link:hover {
+	color: #b81c31;
+	border: 2px solid #b81c31;	
+}
+
+/* ------ menu-two__link for services ------ */
+
+.menu-two__link_title {
+	display: block;
+	padding: 10px 17px;
+}
+
+.menu-two__link_text {
+	font-family: 'Museo Sans 300';
+	font-size: 12.92px;
+	display: block;
+}
+
+
+/* ------ Section consult (about.html) ------ */
+
+.consult {
+	padding: 64px 0 60px;
+}
+
+.paragraph {
+	letter-spacing: 0.003em;
+	margin-top: 34px;
+}
+
+/* ------ Section advantages (about.html)   ------ */
+
+.advantages {
+	padding-bottom: 10px;
+}
+
+.list-advantages:before {
+	content: '';
+	display: block;
+	background: #e5e6e8;
+	width: 100%;
+	height: 2px;
+}
+
+.list-advantages__item {
+	margin-top: 70px;
+	position: relative;
+}
+
+.list-advantages__item:after {
+	content: '';
+	display: block;
+	background: #e5e6e8;
+	width: 80%;
+	height: 2px;
+	position: absolute;
+	margin-top: 131px;
+}
+
+.list-advantages__item:first-child {
+	margin-top: 36px;
+}
+
+.list-advantages__icon {
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	border: 2px solid #102e62;
+	padding: 12px;
+}
+
+.list-advantages__stage {
+	margin-left: 38px;
+}
+
+.list-advantages__title {
+	font-size: 18.33px;
+	margin-bottom: 13px;
+}
+
+.list-advantages__text {
+	font-size: 14px;
+
+}
+
+.stage {
+	margin-bottom: 74px;
+}
+
+.stage__text {
+	letter-spacing: 0.002em;
+	margin-top: 17px;
+	font-size: 14px;
+}
+
+/* ------ Section cars (about.html) ------ */
+
+.cars {
+	padding-bottom: 72px;
+	padding-top: 76px;
+}
+
+.title-cars {
+	margin-bottom: 47px;
+}
+
+.phote-cars {
+	position: relative;
+}
+
+.phote-cars__overlay {
+	background: rgba(53, 50, 64, 0.58);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+	border: 7px solid #9a97a7;
+	max-width: 270%;
+}
+
+.phote-cars__overlay:hover {
+	opacity: 1;
+}
+
+.phote-cars__link {
+	font-size: 29.17px;
+	color: #fff;
+}
+
+.phote-cars__link:hover {
+	color: #fff;
+}
+
+/*------- Header (index.html) -------*/
+
+.header-index {
+	background: url(..//img/nk14.jpg) no-repeat center top fixed;
+}
+
+.offers {
+	padding: 105px 0 148px;
+}
+
+.offers__list {
+	background: rgba(255, 255, 255, 0.84);
+	border: 3px solid rgba(0, 0, 0, 0.06);
+	width: 172px;
+	border-radius: 3px;
+	padding: 11px 0;
+}
+
+.offers__title {
+	font-size: 58px;
+}
+
+.offers__text {
+	color: #081d42;
+	font-size: 29px;
+	font-family: 'Museo Sans 100';
+	width: 470px;
+	line-height: 1.1em;
+	margin: 26px 0 35px;
+}
+
+.offers__link {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid #3364a3;
+	display: block;
+	color: #3364a3;
+	text-align: center;
+}
+
+.offers__link:hover {
+	color: #1cb883;
+	border: 2px solid #1cb883;
+}
+
+.offers__link_facebook {
+	color: #3d6ca8;
+	border: 2px solid #3d6ca8;
+}
+
+.offers__link_twitter {
+	color: #43c9fd;
+	border: 2px solid #43c9fd;
+}
+
+.offers__link_telegram {
+	color: #25a3d4;
+	border: 2px solid #25a3d4;
+}
+
+
+.offers__icon {
+	font-size: 16.67px;
+}
+
+/*------- Section confidence (index.html)  -------*/
+
+.confidence {
+	background: #f1f1f3;
+	padding: 57px 0 106px;
+}
+
+.title-confidence {
+	text-align: center;
+}
+
+.marketing {
+	width: 370px;
+	margin: 50px auto 0;
+}
+
+.marketing__title {
+	margin: 25px 0 15px;
+}
+
+.marketing__text {
+	font-size: 14px;
+	letter-spacing: 0.005em;
+}
+
+.marketing__icon {
+	width: 119px;
+	height: 119px;
+	line-height: 119px;
+	background: #c8cbdb;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.marketing__button {
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	top: 77px;
+	left: 50%;
+	background: #1cb883;
+	color: #fff;
+	font-family: 'Museo Sans 700';
+	width: 176px;
+	padding: 12px 10px;
+	border-bottom: 4px solid #149d6f;
+	display: block;
+	margin-left: -88px;
+}
+
+.marketing__link {
+	color: #fff;
+}
+
+.marketing__link:hover {
+	color: #fff;
+}
+
+/*------- Section confidence (index.html)  -------*/
+
+.work {
+	padding: 102px 0 81px;
+}
+
+.project {
+	text-align: center;
+	width: 370px;
+	margin: 0 auto;
+}
+
+.project__icon {
+	width: 86px;
+	height: 86px;
+	line-height: 86px;
+	text-transform: uppercase;
+	font-size: 50.11px;
+	background: #102e62;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Museo Sans 100';
+	margin: 0 auto;
+}
+
+.project__title {
+	font-size: 24px;
+	font-family: 'Museo Sans 100';
+	margin: 12px 0 15px;
+}
+
+.project__title span {
+	text-transform: uppercase;
+	color: #b81c31;
+}
+
+.project__text {
+	font-size: 14px;
+	letter-spacing: 0.02em;
+}
+
+/*------- Section mission (index.html)  -------*/
+
+.mission {
+	background: #5f6a7e;
+	padding: 44px 0;
+}
+
+.title-mission {
+	color: #aaafb9;
+	border-bottom: 3px solid #6f798c;
+    padding-bottom: 10px;
+}
+
+.wrap__block {
+	width: 470px;
+	margin-right: 30px;
+}
+
+.wrap__block-2 {
+	width: 382px;
+}
+
+.wrap__text {
+	color: #cbced4;
+	line-height: 1.1em;
+	margin-top: 25px;
+}
+
+.wrap__link {
+	width: 170px;
+	display: block;
+	color: #d9dbe0;
+	font-size: 15.83px;
+	border: 2px solid #ced1d8;
+	text-align: center;
+	padding: 9px 0;
+	font-family: 'Museo Sans 700';
+	margin-top: 41px;
+}
+
+.wrap__link:hover {
+	background: #ced1d8;
+	color: #6f798c;
+}
+
+.wrap__link:active {
+	box-shadow: 0 0 15px rgba(0,0,0,0.5) inset;
+}
+
+.news__item {
+	position: relative;
+	margin-top: 25px;
+}
+
+.news__item:after {
+	content: '';
+	width: 100%;
+	border-bottom: 1px solid #6c768a;
+	display: block;
+	height: 2px;
+	position: absolute;
+	margin-top: 85px;
+}
+
+.news__item img {
+	height: 70%;
+	max-width: 56px;
+}
+
+.news__text {
+	color: #d5d7dd;
+	font-size: 12.5px;
+	font-family: 'Museo Sans 700';
+	margin-bottom: 3px;
+	width: 172px;
+	display: block;
+}
+
+.news__text:hover {
+	color: #d5d7dd;
+}
+
+.news__date {
+	font-size: 10.42px;
+	font-family: 'Museo Sans 100';
+	color: #989fac;
+}
+
+.news__services {
+	width: 171px;
+	margin-left: 13px;
+}
+
+/*------- Section map (contacts.html)  -------*/
+
+.yandex-map {
+	position: absolute;
+	width: 100%;
+}
+
+.map {
+	padding-bottom: 110px;
+}
+
+.main {
+	align-items: center;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.18);
+	padding-bottom: 19px;
+}
+
+.contacts {
+	background: rgba(130,139,155,0.75);
+	position: relative;
+	padding: 19px 39px 0px 35px;
+	border-radius: 5px;
+	top: 49px;
+}
+
+.contacts:before {
+	content: '';
+    border: 17px solid transparent;
+    border-left: 17px solid rgba(130,139,155,0.75);
+    border-bottom: 17px solid rgba(130,139,155,0.75);
+    position: absolute;
+    border-radius: 0 0 0 5px;
+    transform: rotate(45deg);
+    left: -17px;
+    top: 21px;
+    display: block;
+}
+
+.main__title {
+	color: #fff;
+	letter-spacing: 0.02em;
+}
+
+.main__list {
+	width: 135px;
+}
+
+.main__link {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid rgb(255, 250, 250);
+	display: block;
+	color: rgb(255, 250, 250);
+	text-align: center;
+}
+
+.main__link:hover {
+	border: 2px solid #0040856b;
+	color: #0040856b;
+}
+
+.communications {
+	margin-top: 24px;
+}
+
+.communications__block {
+	font-size: 16px;
+	width: 100%;
+}
+
+.communications__item:nth-child(2n) {
+	margin-bottom: 36px;
+}
+
+.communications__item:last-child {
+	margin-top: 25px;
+}
+
+.communications__link {
+	color: #fff;
+}
+
+.communications__link:hover {
+	color: #0040856b;
+}
+
+.communications__adress {
+	color: #fff;
+	margin-left: 12px;
+	line-height: 1.4em;
+	font-size: 16px;
+}
+
+.communications__icon {
+	color: #fff;
+}
+
+.communications__block-2 {
+	width: 100%;
+	margin-left: 24px;
+}
+
+.communications__text {
+	color: #fff;
+	line-height: 1.4em;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+/*------- Section firm (services.html)-------*/
+
+.firm {
+	background: url(..//img/fons.jpg) no-repeat center top / cover;
+	padding: 42px 0 39px;
+}
+
+.info-firm {
+	width: 330px;
+}
+
+.info-firm__title {
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 0.02em;
+	line-height: 1.1em;
+	margin-bottom: 20px;
+}
+
+.info-firm__text {
+	color: #f8f8f9;
+	letter-spacing: 0.02em;
+	line-height: 1.3em;
+}
+
+.firm-list {
+	border: 3px solid #9a9ca6;
+	padding: 20px 55px 6px 29px;
+	border-radius: 5px;
+}
+
+.firm-list__item {
+	margin-bottom: 10px;
+}
+
+.firm-list__arrow {
+	color: #fff;
+}
+
+.firm-list__link {
+	font-size: 15.42px;
+	color: #fff;
+	border-bottom: 2px solid transparent;
+}
+
+.firm-list__link:hover {
+	border-bottom: 2px solid #c4c5ca;
+	color: #fff;
+}
+
+/*------- Section categorys (services.html)-------*/
+
+.wrap-left {
+	padding: 51px 0 54px;
+}
+
+.info__title {
+	font-size: 29px;
+	letter-spacing: 0.02em;
+	margin-bottom: 30px;
+}
+
+.info__text {
+	color: #636369;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
+.info__text:last-child {
+	margin-bottom: 0;
+}
+
+.consultation {
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	padding: 23px 0 28px 32px;
+	width: 470px;
+	border-radius: 5px;
+	margin-top: 40px;
+	position: relative;
+}
+
+.consultation:after {
+	position: absolute;
+	content: url(../img/call.png);
+    width: auto;
+    margin-left: 312px;
+    margin-top: -70px;
+}
+
+.consultation__title {
+	color: #414449;
+	font-size: 16px;
+	margin-bottom: 17px;
+}
+
+.consultation__btn {
+	color: #b81c31;
+	font-size: 14px;
+	font-family: 'Museo Sans 700';
+	width: 153px;
+	border: 2px solid #b81c31;
+	border-radius: 3px;
+	text-align: center;
+	padding: 10px 0;
+	cursor: pointer;
+	background: #fff;
+}
+
+.consultation__btn:hover {
+	background: #b81c31;
+	color: #fff;
+	border: 2px solid transparent;
+}
+
+.consultation__btn:active {
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.23) inset;
+}
+
+.consultation__call {
+	margin-bottom: 16px;
+}
+
+.consultation__tel {
+	color: #585f6b;
+	font-size: 14px;
+	font-family: 'Museo Sans 700';
+	margin-left: 17px;
+}
+
+.consultation__text {
+	color: #888d95;
+	font-size: 12px;
+	width: 238px;
+}
+
+.wrap-right {
+	background: #fafafb;
+	padding-top: 51px;
+	width: 100%;
+}
+
+.property__title {
+	color: #8c94a3;
+	font-size: 17.92px;
+	padding-left: 25px;
+}
+
+.property__list {
+	border-top: 2px solid rgba(0, 0, 0, 0.1);
+	margin-top: 42px;
+}
+
+.property__item {
+    padding: 14px 25px 11px;
+    border-bottom: 1px solid rgba(212,212,225,0.72);
+    line-height: 1.2em;
+}
+
+.property__item:before {
+	content: '■';
+	color: #989eaa;
+	font-size: 23px;
+	margin-right: 14px;
+}
+
+.property__item i {
+	color: #aeaeb9;
+	margin-right: 18px;
+	display: block;
+}
+
+.property__link {
+	color: #747487;
+	font-size: 15.42px;
+	font-family: 'Museo Sans 700';
+	width: 230px;
+}
+
+.property__link:hover {
+	color: #aeaeb9;
+}
+
+.reviews {
+	margin: 55px 0 20px 0;
+}
+
+.reviews__phote {
+	margin-top: 43px;
+}
+
+.reviews__man {
+	width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #656e8d;
+    overflow: hidden;
+    margin: 0 auto 16px;
+}
+
+.reviews__img {
+	width: 100%;
+}
+
+.reviews__title {
+	color: #747487;
+	font-size: 15.42px;
+	margin-top: 20px;
+}
+
+.reviews__text {
+	color: #404048;
+	font-size: 13px;
+	margin: 18px auto 17px;
+	letter-spacing: 0.02em;
+	line-height: 1.4em;
+	width: 280px;
+}
+
+.reviews__link {
+	color: #2c60a0;
+	font-size: 14px;	
+}
+
+/*-------Slik slider (services.html)--------*/
+
+.slick-prev, .slick-next {
+	color: #404048;
+	font-size: 25px;
+	top: 130px;
+	height: 28px;
+	width: 21px;
+	margin-top: -14px;
+	transition: all 0.5s ease;
+}
+
+.slick-prev {
+	left: 20px;
+	z-index: 1;
+}
+
+.slick-next {
+	right: 20px;
+}
+
+.slick-prev:before {
+	display: none;
+}
+
+.slick-prev:hover {
+	font-size: 28px;
+	color: #404048;
+	left: 16px;
+}
+
+.slick-next:before {
+	display: none;
+}
+
+.slick-next:hover {
+	font-size: 28px;
+	color: #404048;
+	right: 16px;
+}
+
+.slick-prev:focus {
+	color: #404048;  
+}
+
+.slick-next:focus {
+	color: #404048;  
+}
+
+.slick-dots {
+	bottom: 0;
+}
+
+.slick-dots li {
+	margin: 13px 8px;
+	width: 12px;
+	height: 12px;
+}
+
+.slick-dots li.slick-active button::before {
+	background:  #747487;
+}
+
+.slick-dots {
+	bottom: 0;
+}
+
+.slick-dots li button::before {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+	content: "";
+	opacity: 1;
+	background: #bdc5d6;
+	border-radius: 2px;
+}
+
+/*------- Service-list for all -------*/
+
+.service-list {
+	background: #3a4456;
+	padding-top: 42px;	
+}
+
+.business {
+	margin-bottom: 42px;
+}
+
+.business__title {
+	margin-bottom: 22px;
+}
+
+.business__link {
+	color: #80858f;
+}
+
+.business__link:hover {
+	color: #fff;
+}
+
+/*------- Footer for all -------*/
+
+.footer {
+	background:  #1f2531;
+	font-family: 'Museo Sans 100';
+	line-height: 1em;
+	padding-bottom: 30px;
+    border-bottom: 18px solid #58647a;
+}
+
+.left-text {
+	margin-top: 40px;
+}
+
+.left-text__text {
+	font-size: 12px;
+	color: #aaabae;
+	width: 200px;
+	margin-bottom: 16px;
+}
+
+.right-text {
+	width: 172px;
+	margin-top: 40px;
+}
+
+.right-text__wrap {
+	margin-bottom: 25px;
+}
+
+.right-text__index {
+    font-size: 14.58px;
+    border: 1px solid #aaabae;
+    padding: 5px 4px;
+    text-transform: uppercase;
+    height: 24px;
+    color: #aaabae;
+    margin-right: 11px;
+}
+
+.right-text__text {
+	font-size: 10px;
+	color: #95979a;
+}
+
+.right-text__text-bottom {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.right-text__text-2 {
+	color: #95979a;
+	font-size: 12px;
+	width: 135px;
+}
+
+.right-text__text-bottom-2 {
+	font-family: 'Museo Sans 700';
+}
+
+.right-text__link {
+	color: #95979a;
+	border-bottom: 2px solid transparent;
+	font-size: 12px;
+}
+
+.right-text__link:hover {
+	border-bottom: 2px solid #62646a;
+	color: #95979a;
+}
+
+.btn-footer {
+	margin-top: 68px;
+	background: #1cb883;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Museo Sans 700';
+	width: 156px;
+	padding: 7px 0;
+	border-bottom: 4px solid #149d6f;
+	border-radius: 0;
+}
+
+/*-------Modal window-------*/
+
+.form {
+	background: #fff;
+	width: 413px;
+	border-radius: 5px;
+	padding: 50px;
+}
+
+.form__text {
+	font-size: 14px;
+	color: #404048;
+	letter-spacing: 0.02em;
+	margin-top: 12px;
+}
+
+.form__input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #757888;
+	color: #a0a0a3;
+	padding: 13px 0;
+	display: block;
+}
+
+.form__btn {
+	width: 100%;
+	margin-top: 29px;
+	font-size: 15px;
+	padding: 13px 0;
+}
+
+.arcticmodal-overlay, .arcticmodal-container {
+	background-color: #131731;
+	opacity: 0.9;
+}
+
+/*-------Media Queries-------*/
+
+/* 1140 - 1200 px xl*/
+@media (min-width: 1200px) {
+	.bar {
+		display: none;
+	}
+}
+
+/* 992 - 1140 px lg */
+@media screen and (max-width: 1200px) {
+	/*--- Navigation for all ---*/
+	.menu__link {
+		padding: 12px 8px;
+		font-size: 16px;
+	}
+
+	.button {
+		padding: 7px 7px;
+	}
+
+	.bar {
+		display: none;
+	}
+
+	/*--- Mission (index.html) ---*/
+	.wrap {
+		margin-bottom: 50px;
+	}
+
+	.news__services {
+		width: auto;
+	}
+
+	.news__item:after {
+		margin-top: 86px;
+		width: 270px;
+	}
+
+	/*--- firm (services.html) ---*/
+	.info-firm {
+		width: auto;
+	}
+
+	.info-firm__title {
+		width: 300px;
+	}
+
+	.consultation {
+		width: auto;
+ 	}
+
+ 	.consultation:after {
+ 		margin-left: 440px;
+    	margin-top: -70px;
+ 	}
+}
+
+/* 768 - 992 px md */
+@media screen and (max-width: 992px) {
+	
+	.yandex-map {
+		position: relative;
+	}
+
+	.bar {
+		display: block;
+	}
+
+	/*--- Company for all ---*/
+	.title-company {
+		text-align: center;
+	}
+
+ 	.services {
+		justify-content: center;
+ 	}
+
+ 	.menu-two__item {
+ 		margin-top: 30px;
+ 	}
+
+ 	/*--- consult (about.html) ---*/
+ 	.list-advantages__item:after {
+ 		margin-top: 175px;
+ 		width: 100%;
+ 	}
+
+	/*--- cars (about.html) ---*/
+ 	.phote-cars {
+ 		margin-bottom: 30px;
+ 	}
+
+ 	/*--- Map (contacts.html) ---*/
+
+ 	.communications__block {
+ 		width: 56%;
+ 	}
+
+ 	.communications__block-2 {
+ 		width: auto;
+ 	}
+
+	/*--- Confidence (index.html) ---*/
+ 	.marketing {
+ 		margin-bottom: 45px;
+ 		width: auto;
+ 	}
+
+ 	/*--- Mission (index.html) ---*/
+ 	.news__text {
+ 		width: auto;
+ 	}
+
+ 	.news__img-link {
+ 		height: 60px
+ 	}
+
+ 	.news__item:after {
+		margin-top: 66px;
+	}
+
+	.news__item img {
+		height: auto;
+	}
+
+	/*--- Work (index.html) ---*/
+	.work {
+		padding-bottom: 21px;
+	}
+ 	.project {
+ 		width: auto;
+ 		margin-bottom: 50px;
+ 	}
+
+	/*--- Firm (services.html) ---*/
+	.property__link{
+		width: auto;
+	}
+
+ 	.consultation:after {
+ 		margin-left: 520px;
+    	margin-top: -70px;
+ 	}
+
+	/*--- Footer for all ---*/
+ 	.footer {
+ 		padding: 40px 0 40px;
+ 	}
+
+ 	.left-text {
+ 		margin-top: 0;
+ 	}
+
+ 	.right-text {
+ 		margin-top: 0;
+ 	}
+
+	.wrap-right {
+ 		padding-bottom: 50px
+ 	}
+}
+
+/* 576 - 768 px sm*/
+@media screen and (max-width: 768px) {
+	/*--- Company for all ---*/
+	.menu-two {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	/*--- Advantages (about.html) ---*/
+	.list-advantages__item {
+ 		flex-direction: column;
+ 	}
+
+	.list-advantages__item:after {
+ 		margin-top: 263px;
+ 	}
+
+ 	.list-advantages__stage {
+ 		margin-left: 0;
+ 		margin-top: 30px;
+ 	}
+
+ 	/*--- Service-list for all ---*/
+ 	.business__list {
+ 		text-align: center;
+ 	}
+ 	.business__title {
+ 		text-align: center;
+ 	}
+
+ 	/*--- Map (contacts.html) ---*/
+ 	.communications {
+ 		flex-direction: column;
+ 	}
+
+ 	.communications__block {
+ 		width: auto;
+ 	}
+
+ 	.communications__block-2 {
+ 		margin-left: 0;
+ 	}
+
+ 	/*--- Mission (index.html) ---*/
+	.wrap {
+		flex-direction: column;
+	}
+
+	.wrap__block {
+		width: auto;
+	}
+
+	/*--- Firm (services.html) ---*/
+	.info-firm {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.info-firm__title {
+		margin: 40px auto 21px;
+	}
+
+	.consultation:after {
+		display: none;
+	}
+
+ 	/*--- Footer for all ---*/
+ 	.logo-footer {
+ 		text-align: center;
+ 		margin-bottom: 20px;
+	}
+
+	.logo-footer img {
+		width: 210px;
+	}
+
+	.left-text__text {
+		text-align: center;
+		margin: 0 auto 20px;
+	}
+	
+	.right-text {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.right-text__text {
+		text-align: left;
+	}
+	.right-text__text-2 {
+		margin: 0 auto;
+	}
+
+	.btn-footer {
+		margin: 26px auto 0;
+	}
+}
+
+/* 420 - 450 px */
+@media screen and (max-width: 450px) {
+	.mini-phone {
+		display: none;
+	}
+
+	.button {
+		width: 40px;
+	    height: 40px;
+	    border-radius: 50%;
+	    padding-left: 12px;
+	    padding-top: 10px;
+	    margin-top: -3px;
+	}
+
+	/*--- map (contacts.html) ---*/
+	.main {
+		flex-direction: column;
+	}
+
+	.main__title {
+		margin-bottom: 20px;
+	}
+}
+
+/* 420 - 576 px */
+@media screen and (max-width: 576px) {
+	/*--- Offers (index.html) ---*/
+	.offers__text {
+		width: auto;
+		font-size: 25px;	
+	}
+
+	.offers__title {
+		font-size: 45px;
+	}
+
+	/*--- Advantages (about.html) ---*/
+	.list-advantages__item:after {
+ 		margin-top: 39px;
+   		position: relative;
+ 	}
+ 	.list-advantages__item {
+ 	 	margin-top: 47px;
+ 	}
+
+	/*--- Cars (about.html) ---*/
+	.cars {
+		padding-top: 49px;
+	}
+
+ 	.phote-cars {
+ 		text-align: center;
+ 	}
+
+ 	.title-cars {
+ 		text-align: center;
+ 	}
+	
+	/*--- map (contacts.html) ---*/
+	.contacts:before {
+		display: none;
+	}
+
+}
+
+/* 320 - 420 px */
+@media screen and (max-width: 420px) {
+	/*--- Advantages (about.html) ---*/
+	.list-advantages__item:after {
+		margin-top: 60px;
+    	position: relative 	
+	}
+
+	/*--- Cars (about.html) ---*/
+	.cars {
+		padding-top: 42px;
+	}
+
+	/*--- Mission (index.html) ---*/
+ 	.wrap__block-2 {
+ 		width: auto;
+ 	}
+
+ 	/*--- Firm (services.html) ---*/
+	.consultation__title {
+		text-align: center;
+	}
+
+	.consultation__call {
+		flex-direction: column;
+	}
+
+	.consultation__tel {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.consultation__text {
+		text-align: center;
+		margin: 12px auto 0;
+	}
+
+	.consultation {
+		padding-right: 25px;
+	}
+}
